@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Raw Vegan</title>
+	<meta name="description"
+		content="Це твій корисний десерт. Навчись готувати сироїдні веганські солодощі без цукуру , молочних продуктів та глютену">
+
+	<!-- <meta property="og:title" content="Raw Vegan">
+	<meta property="og:description" content="Це твій корисний десерт. Навчись готувати сироїдні веганські солодощі без цукуру , молочних продуктів та глютенус">
+	<meta property="og:image" content="https://www.ginger-reborn.space//img/meta-content.png?v=1.1.1">
+	<meta property="og:url" content="https://www.ginger-reborn.space//">
+	<meta property="og:type" content="website">
+	<meta property="og:site_name" content="Raw Vegan">
+	<meta property="og:locale" content="uk_UA"> -->
+
+	<!-- <meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Raw Vegan">
+	<meta name="twitter:description" content="Це твій корисний десерт. Навчись готувати сироїдні веганські солодощі без цукуру , молочних продуктів та глютену">
+	<meta name="twitter:image" content="https://www.ginger-reborn.space/img/meta-content.png?v=1.1.1">
+	<meta name="twitter:url" content="https://www.ginger-reborn.space/"> -->
+
+	<link rel="canonical" href="https://www.ginger-reborn.space/">
+
+	<link rel="icon" type="image/png" href="./files/favicon/favicon-96x96.png" sizes="96x96" />
+	<link rel="icon" type="image/svg+xml" href="./files/favicon/favicon.svg" />
+	<link rel="shortcut icon" href="./files/favicon/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="180x180" href="./files/favicon/apple-touch-icon.png" />
+	<meta name="apple-mobile-web-app-title" content="MyWebSite" />
+	<link rel="manifest" href="./files/favicon/site.webmanifest" />
+
+	<link rel="stylesheet" href="./files/swiper/swiper-bundle.min.css?_v=20250915103017">
+	<link class="general-styles" rel="stylesheet" href="./css/style.min.css?_v=20250915103017">
+</head>
+
+<body>
+	<main class="main">
+		<section class="section intro">
+			<div class="container">
+				<img class="main-logo-desktop" src="./img/main-logo.svg" alt="Logo">
+				<div class="intro-bg">
+					<img src="./img/intro.jpg" alt="Image">
+				</div>
+				<div class="intro-block anim-y">
+					<img class="intro-bg-mobile" src="./img/intro-bg-mobile.png" alt="Image">
+					<img class="main-logo anim-x" src="./img/main-logo.svg" alt="Logo">
+					<p class="main-text anim-x">кулінарний інтенсив</p>
+					<h1 class="main-title anim-x">RawVegan</h1>
+					<p class="main-text custom anim-x">ТВІЙ КОРИСНИЙ ДЕСЕРТ</p>
+
+					<div class="intro-separator anim-x"></div>
+
+					<p class="main-text custom-2 anim-x">НАВЧИСЬ&nbsp;ЗА&nbsp;10&nbsp;ДНІВ&nbsp;ГОТУВАТИ
+						СИРОЇДНІ&nbsp;ВЕГАНСЬКІ&nbsp;СОЛОДОЩІ
+						БЕЗ&nbsp;ЦУКУРУ&nbsp;,&nbsp;МОЛОЧНИХ
+						ПРОДУКТІВ&nbsp;ТА&nbsp;ГЛЮТЕНУ</p>
+					<p class="main-text custom-3 anim-x">Підходить&nbsp;для&nbsp;хто&nbsp;цінує&nbsp;своє&nbsp;здоров`я
+						та&nbsp;хоче&nbsp;підвишищити&nbsp;рівень енергії&nbsp;та&nbsp;продуктивності</p>
+					<div class="main-button-wrapper anim-x">
+						<a href="https://t.me/GingerGingerRebornBot" target="_blank"
+							class="main-button wave-hover pulse for-main-button">
+							<p class="text">599 грн замість</p>
+							<p class="text custom">2000 грн</p>
+						</a>
+						<p class="main-text custom-4">Отримай доступ до каналу у телеграмi</p>
+					</div>
+
+				</div>
+			</div>
+		</section>
+		<script>
+			function setIntroSectionHeight() {
+				const introBlock = document.querySelector('.intro-block');
+				if (!introBlock) return;
+				const introSection = document.querySelector('.section.intro');
+
+				const rect = introBlock.getBoundingClientRect();
+				const bottomPosition = rect.bottom + window.scrollY;
+
+				introSection.style.height = bottomPosition + 'px';
+			}
+
+			setIntroSectionHeight();
+			window.addEventListener('resize', function () {
+				setIntroSectionHeight();
+			});
+
+			if (window.innerWidth <= 1024) {
+				document.querySelector('.intro-block').classList.remove('anim-y');
+			}
+		</script>
+		<section class="section why-section">
+			<div class="container with-border">
+				<img class="desktop-bg" src="./img/why-bg.png" alt="Image" loading="lazy">
+				<img class="mobile-bg" src="./img/why-bg-mob.png" alt="Image" loading="lazy">
+				<h2 class="title anim-x">ЧОМУ&nbsp;ТОБІ&nbsp;ПОТРІБНО&nbsp;НАВЧИТИСЬ
+					ГОТУВАТИ&nbsp;RAW/VEGAN&nbsp;ДЕСЕРТИ</h2>
+				<ul class="why-list">
+					<li class="anim-y">
+						<img src="./img/why-1.png" alt="Image" loading="lazy">
+						<p>Проста технологія приготування</p>
+					</li>
+					<li class="anim-y">
+						<img src="./img/why-2.png" alt="Image" loading="lazy">
+						<p>Від raw десертів не ростуть бока</p>
+					</li>
+					<li class="anim-y">
+						<img src="./img/why-3.png" alt="Image" loading="lazy">
+						<p>Натуральні цільні інгредієнти</p>
+					</li>
+					<li class="anim-y">
+						<img src="./img/why-4.png" alt="Image" loading="lazy">
+						<p>Можна сміло давати дітям</p>
+					</li>
+					<li class="anim-y">
+						<img src="./img/why-5.png" alt="Image" loading="lazy">
+						<p>У тебе непереносимість глютену чи молочки</p>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<section class="section cards-section">
+			<div class="container with-border">
+				<img class="cards-bg-mobile" src="./img/cards-bg-mobile.png" alt="Image" loading="lazy">
+				<h2 class="title anim-x">КУРС&nbsp;БУДЕ&nbsp;КОРИСНИМ ДЛЯ&nbsp;ТЕБЕ, ЯКЩО&nbsp;ТИ</h2>
+				<ul class="cards">
+					<li class="card anim-y">
+						<span class="card-pic">
+							<img src="./img/card-1.jpg" alt="Image" loading="lazy">
+						</span>
+						<p class="card-text">Мати</p>
+					</li>
+					<li class="card anim-y">
+						<span class="card-pic">
+							<img src="./img/card-2.jpg" alt="Image" loading="lazy">
+						</span>
+						<p class="card-text">Веган</p>
+					</li>
+					<li class="card anim-y">
+						<span class="card-pic">
+							<img src="./img/card-3.jpg" alt="Image" loading="lazy">
+						</span>
+						<p class="card-text">Кондитер</p>
+					</li>
+					<li class="card anim-y">
+						<span class="card-pic">
+							<img src="./img/card-4.jpg" alt="Image" loading="lazy">
+						</span>
+						<p class="card-text">Нутріциолог</p>
+					</li>
+					<li class="card anim-y">
+						<span class="card-pic">
+							<img src="./img/card-5.jpg" alt="Image" loading="lazy">
+						</span>
+						<p class="card-text">ЗОЖник</p>
+					</li>
+					<li class="card anim-y">
+						<span class="card-pic">
+							<img src="./img/card-6.jpg" alt="Image" loading="lazy">
+						</span>
+						<p class="card-text">Солодкоїжка</p>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<section class="section vertical-section">
+			<div class="container with-border">
+				<div class="section-bg-pic">
+					<img src="./img/vertical-bg-pic.jpg" alt="Image" loading="lazy">
+				</div>
+				<img class="main-logo anim-x" src="./img/main-logo-brown.svg" alt="Logo" loading="lazy">
+				<img class="section-bg-top" src="./img/vertical-bg-top.png" alt="Logo" loading="lazy">
+				<img class="section-bg-bottom" src="./img/vertical-bg-bottom.png" alt="Logo" loading="lazy">
+				<img class="section-bg-bottom-mobile" src="./img/vertical-bg-bottom-mobile.png" alt="Logo" loading="lazy">
+				<div class="pic-gradient"></div>
+				<div class="section-wrapper">
+					<h2 class="title custom anim-x">Краще&nbsp;вкладатись&nbsp;у&nbsp;здоровʼя
+						заздалегідь,&nbsp;плануючи&nbsp;свій
+						стіл,&nbsp;ніж&nbsp;вкладатись&nbsp;в&nbsp;пігулки,
+						коли&nbsp;вже&nbsp;пізно.</h2>
+					<div class="section-wrapper__bottom">
+						<h2 class="title anim-x">ДАВАЙТЕ ЗНАЙОМИТИСЬ БЛИЖЧЕ</h2>
+						<ul class="star-list custom">
+							<li class="anim-y">
+								<img src="./img/star.svg" alt="Image" loading="lazy">
+								<p>Raw веган кондитер з 8-ми річним стажем</p>
+							</li>
+							<li class="anim-y">
+								<img src="./img/star.svg" alt="Image" loading="lazy">
+								<p>Психолог за фахом</p>
+							</li>
+							<li class="anim-y">
+								<img src="./img/star.svg" alt="Image" loading="lazy">
+								<p>Модель, яка не сидить на дієтах</p>
+							</li>
+							<li class="anim-y">
+								<img src="./img/star.svg" alt="Image" loading="lazy">
+								<p>Зцілила аутоімунне захворювання</p>
+							</li>
+							<li class="anim-y">
+								<img src="./img/star.svg" alt="Image" loading="lazy">
+								<p>Засновниця онлайн кондитерської Ginger Reborn</p>
+							</li>
+							<li class="anim-y">
+								<img src="./img/star.svg" alt="Image" loading="lazy">
+								<p>Мати двох дітей</p>
+							</li>
+							<li class="anim-y">
+								<img src="./img/star.svg" alt="Image" loading="lazy">
+								<p>Навчила більше 1000 людей готувати
+									десерти для себе та на замовлення</p>
+							</li>
+							<li class="anim-y">
+								<img src="./img/star.svg" alt="Image" loading="lazy">
+								<p>Відчайдушна експериментаторка в галузі рослинної кулінарії</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section cake-section">
+			<div class="container with-border">
+				<div class="section-bg-pic">
+					<div class="gradient-top"></div>
+					<div class="gradient-bottom"></div>
+					<img src="./img/cake-pic.jpg" alt="Image" loading="lazy">
+				</div>
+				<div class="section-wrapper">
+					<h2 class="title anim-x">Мене&nbsp;звуть&nbsp;Марія i&nbsp;я&nbsp;рада&nbsp;бути
+						вашим&nbsp;провідником&nbsp;у&nbsp;світ
+						raw&nbsp;десертів.
+					</h2>
+					<div class="vertical-separator anim-y"></div>
+					<h2 class="title anim-x">Запрошую&nbsp;вас&nbsp;на&nbsp;моє&nbsp;навчання по&nbsp;приготуванню
+						здорових&nbsp;десертів, які&nbsp;живлять&nbsp;тіло i&nbsp;радують&nbsp;душу.</h2>
+				</div>
+			</div>
+		</section>
+		<section class="section swiper-section">
+			<div class="container with-border">
+				<img class="slider-bg" src="./img/slider-bg.png" alt="Image" loading="lazy">
+				<h2 class="title anim-x">ПРОГРАМА ІНТЕНСИВУ</h2>
+				<div class="swiper cards-slider anim-y">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide opacity-0">
+							<div class="card">
+								<div class="card-pic">
+									<img src="./img/slide-1.jpg" alt="Image" loading="lazy">
+								</div>
+								<p class="card-text">Презентація
+									курсу по сиркам</p>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="card">
+								<div class="card-pic">
+									<img src="./img/slide-1.jpg" alt="Image" loading="lazy">
+								</div>
+								<p class="card-text">Презентація
+									курсу по сиркам</p>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="card">
+								<div class="card-pic">
+									<img src="./img/slide-2.jpg" alt="Image" loading="lazy">
+								</div>
+								<p class="card-text">Приготування безгоріхового тарту
+									зі смородиною</p>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="card">
+								<div class="card-pic">
+									<img src="./img/slide-3.jpg" alt="Image" loading="lazy">
+								</div>
+								<p class="card-text">Бонусний рецепт тістечка «Фісташкова ніжність»</p>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="card">
+								<div class="card-pic">
+									<img src="./img/slide-4.jpg" alt="Image" loading="lazy">
+								</div>
+								<p class="card-text">У подарунок ти отримаєш бонусний урок по фудфотографії десертів
+									та доступ у чат необмеженної підтримки</p>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="card">
+								<div class="card-pic">
+									<img src="./img/slide-5.jpg" alt="Image" loading="lazy">
+								</div>
+								<p class="card-text">Теорія raw десертів. Технологія, інструменти
+									та інгредієнти</p>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="card">
+								<div class="card-pic">
+									<img src="./img/slide-6.jpg" alt="Image" loading="lazy">
+								</div>
+								<p class="card-text">Нутріциологічна цінність
+									raw десертів</p>
+							</div>
+						</div>
+						<div class="swiper-slide opacity-0">
+							<div class="card">
+								<div class="card-pic">
+									<img src="./img/slide-6.jpg" alt="Image" loading="lazy">
+								</div>
+								<p class="card-text">Нутріциологічна цінність
+									raw десертів</p>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-pagination"></div>
+					<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev"></div>
+				</div>
+			</div>
+		</section>
+		<section class="section neccessary-section">
+			<div class="container with-border">
+				<img class="neccessary-bg" src="./img/neccessary-bg.png" alt="Image" loading="lazy">
+				<img class="neccessary-bg-mobile" src="./img/neccessary-bg-mobile.png" alt="Image" loading="lazy">
+				<h2 class="title anim-x">ТІЛЬКИ НЕОБХІДНІШЕ І ТИ!</h2>
+				<ul class="necc-items">
+					<li class="anim-y">
+						<img src="./img/necc-1.png" alt="Image" loading="lazy">
+						<p class="text">Ваги</p>
+					</li>
+					<li class="anim-y">
+						<img src="./img/necc-3.png" alt="Image" loading="lazy">
+						<p class="text">Блендер</p>
+					</li>
+					<li class="anim-y">
+						<img src="./img/necc-5.png" alt="Image" loading="lazy">
+						<p class="text">Термоментр</p>
+					</li>
+					<li class="anim-y">
+						<img src="./img/necc-7.png" alt="Image" loading="lazy">
+						<p class="text">Форми</p>
+					</li>
+					<li class="anim-y">
+						<img src="./img/necc-2.png" alt="Image" loading="lazy">
+						<p class="text">Без цукру</p>
+					</li>
+					<li class="anim-y">
+						<img src="./img/necc-4.png" alt="Image" loading="lazy">
+						<p class="text">Без молочки</p>
+					</li>
+					<li class="anim-y">
+						<img src="./img/necc-6.png" alt="Image" loading="lazy">
+						<p class="text">Без яець</p>
+					</li>
+					<li class="anim-y">
+						<img src="./img/necc-8.png" alt="Image" loading="lazy">
+						<p class="text">Без додатків</p>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<section class="section feedback-section">
+			<div class="container with-border">
+				<div class="section-bg">
+					<img src="./img/feedback-bg.png" alt="Image" loading="lazy">
+				</div>
+				<img class="feedback-bg-mobile" src="./img/feedback-bg-mobile.png" alt="Image" loading="lazy">
+				<h2 class="title custom-position anim-x">ВІДГУКИ</h2>
+				<div class="feedback">
+					<div class="feedback-columns">
+						<div class="feedback-column">
+							<div class="feedback-card reverse-card anim-y">
+								<div class="feedback-card__pic">
+									<img src="./img/feedback-1.jpg" alt="Image" loading="lazy">
+								</div>
+								<p class="feedback-card__text">
+									Всі мої очікування були виправдані, навіть більше – перевершені!
+									Я здобула
+									нові знання, не просто суху теорію, а важливі аспекти, які допомогли мені покращити мою роботу i
+									робити якісніші
+									десерти!
+									<br>
+									<br>
+									Дякую тобі за наставництво
+									i за те, що своїм вогником ти підпалила мій ґнот!
+									<br>
+									<br>
+									Настя
+								</p>
+								<img class="feedback-triangle" src="./img/comment-triangle.png" alt="Image">
+							</div>
+							<div class="feedback-card anim-y">
+								<div class="feedback-card__pic">
+									<img src="./img/feedback-2.jpg" alt="Image" loading="lazy">
+								</div>
+								<p class="feedback-card__text">
+									Після курсу багато чого змінилося, як мінімум ставлення до солодкого, це
+									став цілий ритуал для мене, чашка
+									кави в обід з корисною десертиком)
+									<br>
+									<br>
+									Ше одне найбільше досягнення,
+									у мого чоловіка є ящик «Пандори»,
+									шафка з солодощами, яку він постійно поповнював всякою хімічною гидотою) ведмедями желейними, мілкою,
+									i батончиками) ось
+									уже більше місяця шафка порожня) постійно просить лаймовий торт та марси ну i сирки,
+									які я почала готувати після курсу
+									по сиркам)
+									<br>
+									<br>
+									Анастасія
+								</p>
+								<img class="feedback-triangle" src="./img/comment-triangle.png" alt="Image">
+							</div>
+						</div>
+						<div class="feedback-column">
+							<div class="feedback-card anim-y">
+								<div class="feedback-card__pic">
+									<img src="./img/feedback-3.jpg" alt="Image" loading="lazy">
+								</div>
+								<p class="feedback-card__text">
+									“Після консультації з Марією все стало зрозуміло, ніби по поличках все розставлено стало.
+									Я радію, що придбала курс по Raw десертам Марії ще в 2021 році, тепер імігрувавши в нову країну, я
+									будую
+									та розвиваю своє улублену справу,
+									готую корисні та естетичні смаколики,
+									з допомогою Марії і тих знань,
+									якими вона ділиться.»
+									<br>
+									<br>
+									Міла
+								</p>
+								<img class="feedback-triangle" src="./img/comment-triangle.png" alt="Image">
+							</div>
+							<div class="feedback-card reverse-card anim-y">
+								<div class="feedback-card__pic">
+									<img src="./img/feedback-4.jpg" alt="Image" loading="lazy">
+								</div>
+								<p class="feedback-card__text">
+									Друзі були вражені, що raw десерти на рослинних продуктах можуть бути не лише смачними, а й дуже
+									ситними.
+									А головне ця ситість без тяжкості у шлунку, що є одним із головних плюсів для мене.
+									Переваг у цих десертів безліч, але ще один ключовий для мене - немає необхідності все з'їдати відразу,
+									можна залишити
+									десерти в морозильній камері i діставати їх за необхідності. Це дуже зручно, коли гості приходять
+									несподівано, годинку
+									поговорили i вже можна пити чай з десертами.
+									<br>
+									<br>
+									Людміла
+								</p>
+								<img class="feedback-triangle" src="./img/comment-triangle.png" alt="Image">
+							</div>
+							<div class="feedback-card anim-y">
+								<div class="feedback-card__pic">
+									<img src="./img/feedback-5.jpg" alt="Image" loading="lazy">
+								</div>
+								<p class="feedback-card__text">
+									“Маша, дякую за цей курс!
+									Я не тільки навчилася готувати смачні, корисні, красиві десерти, але моє ставлення змінилося до всіх
+									солодощів.
+									Нещодавно стояла в магазині i дивилася на стенд з шоколадками - зрозуміла, що це більше
+									для мене не смачно - i пішла купувати
+									какао масло, фініки, кешью. таке!
+									<br>
+									<br>
+									Ваші десерти – це кохання!”
+									<br>
+									<br>
+									Катя
+								</p>
+								<img class="feedback-triangle" src="./img/comment-triangle.png" alt="Image">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section results-section">
+			<div class="container with-border">
+				<img class="results-bg" src="./img/results-bg.png" alt="Image" loading="lazy">
+				<img class="results-bg-mobile" src="./img/results-bg-mobile.png" alt="Image" loading="lazy">
+				<h2 class="title anim-x">РЕЗУЛЬТАТИ ПІСЛЯ КУРСУ</h2>
+				<ul class="star-list">
+					<li class="anim-y">
+						<img src="./img/star.svg" alt="Image" loading="lazy">
+						<p>Підвищиш свій рівень енергії та продуктивності</p>
+					</li>
+					<li class="anim-y">
+						<img src="./img/star.svg" alt="Image" loading="lazy">
+						<p>Перестанеш зриватись на солодке в магазинах
+							i зливати бюджет на неякісні солодощі</p>
+					</li>
+					<li class="anim-y">
+						<img src="./img/star.svg" alt="Image" loading="lazy">
+						<p>Покращиш стан шкіри, зубів, нігтів та фігури</p>
+					</li>
+					<li class="anim-y">
+						<img src="./img/star.svg" alt="Image" loading="lazy">
+						<p>Навчишся готувати красиві десерти, які можуть
+							стати подарунком зробленим своїми руками</p>
+					</li>
+					<li class="anim-y">
+						<img src="./img/star.svg" alt="Image" loading="lazy">
+						<p>Почнеш отримувати більше уваги від друзів</p>
+					</li>
+					<li class="anim-y">
+						<img src="./img/star.svg" alt="Image" loading="lazy">
+						<p>Отримаєш навик з яким зможеш почати розвивати
+							кулінарний блог чи готувати на замовлення</p>
+					</li>
+					<li class="anim-y">
+						<img src="./img/star.svg" alt="Image" loading="lazy">
+						<p>Зможеш годувати дітей солодощами з користю для здоровʼя</p>
+					</li>
+					<li class="anim-y">
+						<img src="./img/star.svg" alt="Image" loading="lazy">
+						<p>Якщо ти кондитер, розшириш асортимент сучасним зож трендом</p>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<section class="section steps-section">
+			<div class="section-wrapper">
+				<div class="section-bg-pic">
+					<div class="gradient-top"></div>
+					<img src="./img/cake-bg.jpg" alt="Image" loading="lazy">
+					<div class="gradient-bottom"></div>
+				</div>
+			</div>
+			<div class="container with-border">
+				<h2 class="title custom anim-x">ЯК БУДЕ ПРОХОДИТИ НАВЧАННЯ</h2>
+				<img class="steps-bg" src="./img/cake-bg-2.png" alt="Image" loading="lazy">
+				<ul class="steps-list">
+					<li class="anim-y">
+						<p class="number">1</p>
+						<p class="text">Старт марафону завтра, буде проходити
+							в закритому телеграм каналі</p>
+					</li>
+					<li class="anim-y">
+						<p class="number">2</p>
+						<p class="text">Кожен день ти будеш отримувати
+							уроки в закритому телеграм каналі</p>
+					</li>
+					<li class="anim-y">
+						<p class="number">3</p>
+						<p class="text">Всім учасникам буде доступний телеграм-чат
+							з підтримкою, де ти зможеш поставити
+							безкінечну кількість запитань</p>
+					</li>
+					<li class="anim-y">
+						<p class="number">4</p>
+						<p class="text">Доступ до інтенсиву безстроковий</p>
+					</li>
+				</ul>
+				<div class="text-group">
+					<p class="anim-x">Я впевнена, що пройшовши інтенсив, ти якісно зміниш своє харчування на краще.</p>
+					<p class="anim-x">Технологія не потребує багато техніки, а десерти готуються
+						з доступних інгредієнтів.</p>
+				</div>
+				<img class="main-logo" src="./img/main-logo.svg" alt="Logo">
+				<div class="gorisontal-separator"></div>
+				<h2 class="title anim-x">ПИТАННЯ ТА ВІДПОВІДІ</h2>
+				<div class="faq">
+					<div class="text-drop anim-y">
+						<div class="text-drop__head">
+							<h2 class="title">Чи знайду я інгредієнти в своєму місті?</h2>
+							<div class="toggle-drop">
+								<span></span>
+								<span></span>
+							</div>
+						</div>
+						<div class="text-drop__body">
+							<p class="text">Мої десерти готують більше чим у 20-х країнах, на інтенсиві я дам посилання
+								на онлайн магазини, але всі інгредієнти можна придбати в супермаркеті чи на ринку.</p>
+						</div>
+					</div>
+					<div class="text-drop anim-y">
+						<div class="text-drop__head">
+							<h2 class="title">Скільки буде доступ до інтенсивну?</h2>
+							<div class="toggle-drop">
+								<span></span>
+								<span></span>
+							</div>
+						</div>
+						<div class="text-drop__body">
+							<p class="text">Доступ необмежений часом.</p>
+						</div>
+					</div>
+					<div class="text-drop anim-y">
+						<div class="text-drop__head">
+							<h2 class="title">Чи багато потрібно техніки для приготування?</h2>
+							<div class="toggle-drop">
+								<span></span>
+								<span></span>
+							</div>
+						</div>
+						<div class="text-drop__body">
+							<p class="text">Я люблю raw десерти за мінімалізм
+								щодо обладнання, вам не потрібна
+								навіть духовка, потрібен лише
+								блендер, форма i морозилка.</p>
+						</div>
+					</div>
+					<div class="text-drop anim-y">
+						<div class="text-drop__head">
+							<h2 class="title">Скільки часу займає, чи встигну я?</h2>
+							<div class="toggle-drop">
+								<span></span>
+								<span></span>
+							</div>
+						</div>
+						<div class="text-drop__body">
+							<p class="text">Кожен етап приготування займає
+								не більше 15 хв., встигають навіть
+								багатодітні матусі.</p>
+						</div>
+					</div>
+					<div class="text-drop anim-y">
+						<div class="text-drop__head">
+							<h2 class="title">Чи впораюсь я з приготуванням?</h2>
+							<div class="toggle-drop">
+								<span></span>
+								<span></span>
+							</div>
+						</div>
+						<div class="text-drop__body">
+							<p class="text">Технологія приготування
+								настільки проста, що впорається
+								i дитина.</p>
+						</div>
+					</div>
+					<div class="text-drop anim-y">
+						<div class="text-drop__head">
+							<h2 class="title">Чи потрібен дуже потужний блендер?</h2>
+							<div class="toggle-drop">
+								<span></span>
+								<span></span>
+							</div>
+						</div>
+						<div class="text-drop__body">
+							<p class="text">Ні, ви можете починати з тим, що є, на інтенсивні я дам зворотній звʼязок, як
+								з чим працювати.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<script>
+			document.addEventListener('DOMContentLoaded', () => {
+				function setHeightForStepBgWrapper() {
+					const stepSection = document.querySelector('.section.steps-section');
+					if (!stepSection) return;
+					const sectionWrapper = stepSection.querySelector('.section-wrapper');
+
+					sectionWrapper.style.height = stepSection.clientHeight + 'px';
+				}
+
+				setHeightForStepBgWrapper();
+			});
+		</script>
+		<footer>
+			<div class="container">
+				<p class="text anim-y">Розроблено на базі навчання Марії Кабанової.
+					Всі права захищені. Будь-яке копіювання матеріалів дозволяється тільки з погодження правовласників.</p>
+				<p class="text custom anim-y"><span>IMPORTANT: </span>Do not enter your name and email until you have read the
+					Legal
+					Disclaimer. We are not able to make any guarantees and we will not make any guarantees about your ability to
+					generate results with our ideas, information, tools and resources, or strategies. You should know that all
+					products and services by our company are for educational and informational purposes only. Nothing on this
+					website,
+					or any of our websites, or any of our content or curriculum is a implication, promise, or guarantee of
+					results.
+					Use caution and always consult your accountant, lawyer or professional adviser before acting on this or any
+					information related to a lifestyle change, your business and finances. You are responsible for your
+					decisions, actions and results. By registering on this website you agree not to attempt to hold us liable for
+					your
+					decisions, actions or results, at any time, under any circumstance.</p>
+				<p class="text custom anim-y"><span>ВАЖЛИВО: </span>не вводьте свою контактну інформацію, доки не прочитаєте
+					legal
+					disclaimer. Ми не даємо жодних гарантій, що ви досягнете якихось результатів за допомогою наших інструментів,
+					стратегій або інформації. Всі продукти i сервіси компанії призначені для освітніх цілей. Жодна інформація на
+					цьому
+					сайті або будь-яких інших сайтах компанії не гарантує i не обіцяє отримання результатів. Ви несете
+					відповідальність за свої дії
+					i результати.
+					Реєструючись на даному сайті, ви знімаєте з нас відповідальність
+					за ваші дії та результати.</p>
+			</div>
+		</footer>
+		<div class="fixed-wrapper anim-y">
+			<a href="https://t.me/GingerGingerRebornBot" target="_blank" class="fixed-button wave-hover pulse">
+				приєднатись зараз лише за 599 грн
+			</a>
+			<p>Отримай доступ до каналу у телеграмi</p>
+		</div>
+	</main>
+	<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <symbol id="icon-star" viewBox="0 0 32 32">
+      <path
+        d="M15.979 31.975c0-8.822 7.271-15.975 16.021-15.975-8.745 0-16.021-7.155-16.021-15.975 0 8.821-7.233 15.977-15.979 15.977 8.747 0 15.979 7.151 15.979 15.973z">
+      </path>
+    </symbol>
+  </defs>
+</svg>
+
+	<script src="./files/swiper/swiper-bundle.min.js?_v=20250915103017"></script>
+	<script class="general-script" src="./js/index.js?_v=20250915103017"> </script>
+</body>
+
+</html>
